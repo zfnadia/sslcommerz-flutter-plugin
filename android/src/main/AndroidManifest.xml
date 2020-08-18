@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.nadiaferdoush.sslcommerz_flutter_plugin">
+    <application>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".SSLCommerzActivity"/>
+    </application>
+</manifest>
