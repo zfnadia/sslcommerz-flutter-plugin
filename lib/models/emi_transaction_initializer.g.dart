@@ -10,9 +10,9 @@ EMITransactionInitializer _$EMITransactionInitializerFromJson(
     Map<String, dynamic> json) {
   return EMITransactionInitializer(
     json['emi_options'] as int,
-  )
-    ..emi_max_list_options = json['emi_max_list_options'] as int
-    ..emi_selected_inst = json['emi_selected_inst'] as int;
+    emi_max_list_options: json['emi_max_list_options'] as int,
+    emi_selected_inst: json['emi_selected_inst'] as int,
+  );
 }
 
 Map<String, dynamic> _$EMITransactionInitializerToJson(

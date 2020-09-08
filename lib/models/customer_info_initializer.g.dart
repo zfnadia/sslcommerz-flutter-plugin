@@ -16,10 +16,10 @@ CustomerInfoInitializer _$CustomerInfoInitializerFromJson(
     json['customerPostCode'] as String,
     json['customerCountry'] as String,
     json['customerPhone'] as String,
-  )
-    ..customerAddress2 = json['customerAddress2'] as String
-    ..customerState = json['customerState'] as String
-    ..customerFax = json['customerFax'] as String;
+    customerAddress2: json['customerAddress2'] as String,
+    customerState: json['customerState'] as String,
+    customerFax: json['customerFax'] as String,
+  );
 }
 
 Map<String, dynamic> _$CustomerInfoInitializerToJson(

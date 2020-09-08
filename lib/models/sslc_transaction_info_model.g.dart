@@ -33,7 +33,7 @@ SSLCTransactionInfoModel _$SSLCTransactionInfoModelFromJson(
     ..valueD = json['value_d'] as String
     ..riskTitle = json['risk_title'] as String
     ..riskLevel = json['risk_level'] as String
-    ..aPIConnect = json['APIConnect'] as String
+    ..apiConnect = json['APIConnect'] as String
     ..validatedOn = json['validated_on'] as String
     ..gwVersion = json['gw_version'] as String;
 }
@@ -65,7 +65,7 @@ Map<String, dynamic> _$SSLCTransactionInfoModelToJson(
       'value_d': instance.valueD,
       'risk_title': instance.riskTitle,
       'risk_level': instance.riskLevel,
-      'APIConnect': instance.aPIConnect,
+      'APIConnect': instance.apiConnect,
       'validated_on': instance.validatedOn,
       'gw_version': instance.gwVersion,
     };

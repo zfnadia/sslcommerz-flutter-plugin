@@ -4,10 +4,10 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:flutter_json_widget/flutter_json_widget.dart';
 import 'package:sslcommerz_flutter_plugin/constants.dart';
 import 'package:sslcommerz_flutter_plugin/models/additional_initializer.dart';
+import 'package:sslcommerz_flutter_plugin/models/customer_info_initializer.dart';
+import 'package:sslcommerz_flutter_plugin/models/emi_transaction_initializer.dart';
 import 'package:sslcommerz_flutter_plugin/models/product_initializer.dart';
 import 'package:sslcommerz_flutter_plugin/models/shipment_info_initializer.dart';
 import 'package:sslcommerz_flutter_plugin/models/sslc_initialization.dart';
@@ -27,7 +27,6 @@ class _MyAppState extends State<MyApp> {
   bool isTransactionSuccessful = false;
   String amount = '';
   var result;
-  Map<String, dynamic> resultJsonObj;
   SslcommerzFlutterPlugin _sslcommerzFlutterPlugin;
 
   @override
@@ -41,17 +40,10 @@ class _MyAppState extends State<MyApp> {
     _sslcommerzFlutterPlugin.on(
         SslcommerzFlutterPlugin.EVENT_MERCHANT_VALIDATION_ERROR,
         _merchantValidationError);
-    _sslcommerzFlutterPlugin.on(
-        SslcommerzFlutterPlugin.EVENT_TRANSACTION_CANCELED,
-        _transactionCanceled);
   }
 
   @override
   Widget build(BuildContext context) {
-    if (isTransactionSuccessful) {
-      var resultJson = jsonEncode(result);
-      resultJsonObj = jsonDecode(resultJson);
-    }
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
@@ -85,16 +77,14 @@ class _MyAppState extends State<MyApp> {
                   splashColor: Colors.blueAccent,
                   onPressed: () {
                     if (amount.isEmpty) {
-                      Fluttertoast.showToast(
-                          msg: "Amount can not be empty!",
-                          backgroundColor: Colors.black,
-                          textColor: Colors.white);
+                      setState(() {
+                        result = "Amount can not be empty!";
+                      });
                     } else if (amount.isNotEmpty &&
                         double.parse(amount) <= 0.0) {
-                      Fluttertoast.showToast(
-                          msg: "Please enter valid amount",
-                          backgroundColor: Colors.black,
-                          textColor: Colors.white);
+                      setState(() {
+                        result = "Please enter valid amount";
+                      });
                     } else
                       initSSLCommerz(double.parse(amount));
                   },
@@ -105,16 +95,17 @@ class _MyAppState extends State<MyApp> {
                 ),
                 isTransactionSuccessful
                     ? Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
-                          Text(
-                            "Transaction status: Successful! \nSSLCommerz Transaction Info: ",
-                            style: TextStyle(
-                                fontSize: 16.0, fontWeight: FontWeight.bold),
-                          ),
+                          Text("Transaction Successful!",
+                              style: TextStyle(fontWeight: FontWeight.bold)),
+                          SizedBox(height: 5.0),
+                          Text("SSLCommerz Transaction Info: ",
+                              style: TextStyle(fontWeight: FontWeight.bold)),
                           Padding(
-                            padding:
-                                const EdgeInsets.only(top: 10.0, bottom: 10.0),
-                            child: JsonViewerWidget(resultJsonObj),
+                            padding: const EdgeInsets.all(10.0),
+                            child: Text(
+                                JsonEncoder.withIndent('  ').convert(result)),
                           ),
                         ],
                       )
@@ -122,7 +113,7 @@ class _MyAppState extends State<MyApp> {
                         ? Center(
                             child: Padding(
                             padding: const EdgeInsets.only(top: 10.0),
-                            child: Text('Transaction Status : $result',
+                            child: Text(result,
                                 style: TextStyle(
                                     fontSize: 16.0,
                                     fontWeight: FontWeight.bold)),
@@ -150,10 +141,23 @@ class _MyAppState extends State<MyApp> {
             'food',
             TravelVertical("Travel", "10", "A", "12", "Dhk-Syl"),
           ),
+          customerInfoInitializer: CustomerInfoInitializer(
+              "Lucifer Morningstar",
+              "lucy@g.com",
+              "LAPD",
+              "Los Angeles",
+              "90001",
+              "USA",
+              "0000",
+              customerAddress2: "N/A",
+              customerFax: "90102",
+              customerState: "LA"),
+          emiTransactionInitializer: EMITransactionInitializer(1),
           shipmentInfoInitializer: ShipmentInfoInitializer("Courier", 2,
-              ShipmentDetails("AA", "Address 1", "Dhaka", "1000", "BD")),
-          additionalInitializer: AdditionalInitializer(
-              valueA: "Value Option 1", valueB: "Value Option 2"));
+              ShipmentDetails("AA", "Address 1", "Dhaka", "1000", "BD"),
+              shipAddress2: "shipAddress2", shipState: "shipState"),
+          additionalInitializer:
+              AdditionalInitializer(valueA: "1", valueB: "2"));
     } catch (e) {
       debugPrint(e);
     }
@@ -174,13 +178,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _merchantValidationError(String response) {
-    setState(() {
-      isTransactionSuccessful = false;
-      result = response;
-    });
-  }
-
-  void _transactionCanceled(String response) {
     setState(() {
       isTransactionSuccessful = false;
       result = response;

@@ -84,7 +84,7 @@ class SslcommerzFlutterPlugin {
         break;
 
       default:
-        _eventEmitter.emit(EVENT_TRANSACTION_FAIL, null, data);
+        _eventEmitter.emit(EVENT_TRANSACTION_CANCELED, null, data);
     }
   }
 

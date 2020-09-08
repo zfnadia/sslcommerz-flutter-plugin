@@ -24,11 +24,13 @@ import com.sslwireless.sslcommerzlibrary.viewmodel.listener.SSLCTransactionRespo
 
 import java.util.HashMap;
 
+import io.flutter.Log;
+
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.MERCHANT_VALIDATION_ERROR_CODE;
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION_CANCELED_CODE;
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION_FAIL_CODE;
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION_SUCCESS_CODE;
-import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION__CODE;
+import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION_CODE;
 
 public class SSLCommerzActivity extends AppCompatActivity {
 
@@ -41,7 +43,7 @@ public class SSLCommerzActivity extends AppCompatActivity {
             Intent intent = new Intent();
             intent.putExtra("type", TRANSACTION_CANCELED_CODE)
                     .putExtra("data", "Transaction Canceled");
-            setResult(TRANSACTION__CODE, intent);
+            setResult(TRANSACTION_CODE, intent);
             finish();
             return;
         }
@@ -102,7 +104,7 @@ public class SSLCommerzActivity extends AppCompatActivity {
                         Intent intent = new Intent();
                         intent.putExtra("type", TRANSACTION_SUCCESS_CODE)
                                 .putExtra("data", sslTransactionInfo);
-                        setResult(TRANSACTION__CODE, intent);
+                        setResult(TRANSACTION_CODE, intent);
                         finish();
                     }
 
@@ -111,7 +113,7 @@ public class SSLCommerzActivity extends AppCompatActivity {
                         Intent intent = new Intent();
                         intent.putExtra("type", TRANSACTION_FAIL_CODE)
                                 .putExtra("data", s);
-                        setResult(TRANSACTION__CODE, intent);
+                        setResult(TRANSACTION_CODE, intent);
                         finish();
                     }
 
@@ -120,7 +122,7 @@ public class SSLCommerzActivity extends AppCompatActivity {
                         Intent intent = new Intent();
                         intent.putExtra("type", MERCHANT_VALIDATION_ERROR_CODE)
                                 .putExtra("data", s);
-                        setResult(TRANSACTION__CODE, intent);
+                        setResult(TRANSACTION_CODE, intent);
                         finish();
                     }
                 });

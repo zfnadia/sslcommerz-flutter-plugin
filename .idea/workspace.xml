@@ -6,13 +6,59 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bf8b68-a1bf-4ffb-b68d-b82166e97c81" name="Default Changelist" comment="" />
+    <list default="true" id="33bf8b68-a1bf-4ffb-b68d-b82166e97c81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/ios/Classes/SwiftSslcommerzFlutterPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/ios/Classes/SwiftSslcommerzFlutterPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/ios/sslcommerz_flutter_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/ios/sslcommerz_flutter_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/customer_info_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/customer_info_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/customer_info_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/customer_info_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/emi_transaction_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/emi_transaction_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/emi_transaction_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/emi_transaction_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/sslc_transaction_info_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/sslc_transaction_info_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/sslc_transaction_info_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/models/sslc_transaction_info_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/sslcommerz_flutter_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/lib/sslcommerz_flutter_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/sslcommerz_flutter_plugin/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftSslcommerzFlutterPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftSslcommerzFlutterPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/sslcommerz_flutter_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/sslcommerz_flutter_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/customer_info_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/customer_info_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/customer_info_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/customer_info_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/sslc_transaction_info_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/sslc_transaction_info_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/sslc_transaction_info_model.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/sslc_transaction_info_model.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sslcommerz_flutter_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sslcommerz_flutter_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="3201f492a90c465d" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -20,12 +66,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1f357VVqecszDCwpqSoV6Gye2Vm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/android/libs" />
@@ -80,41 +131,54 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="488" y="297" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1595438802230" />
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596996390110">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599121584281">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1596996390110" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1599121584281" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1596989004800" />
-    <state width="1238" height="239" key="GridCell.Tab.0.bottom" timestamp="1597768992997">
+    <state x="163" y="23" width="971" height="777" key="CommitChangelistDialog2" timestamp="1599591710241">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="163" y="2" key="CommitChangelistDialog2/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1599121237898" />
+    <state x="163" y="23" width="971" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1599591710241" />
+    <state width="1878" height="420" key="GridCell.Tab.0.bottom" timestamp="1599470442454">
+      <screen x="-1920" y="33" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442454" />
     <state width="1238" height="303" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1597043837903" />
     <state width="1238" height="303" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699458" />
-    <state width="1238" height="239" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597768992997" />
+    <state width="1238" height="239" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1599400691239" />
+    <state width="1878" height="420" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671820" />
     <state width="1238" height="297" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684736" />
     <state width="1222" height="243" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597697878163" />
-    <state width="1238" height="239" key="GridCell.Tab.0.center" timestamp="1597768992988">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1878" height="420" key="GridCell.Tab.0.center" timestamp="1599470442453">
+      <screen x="-1920" y="33" width="1920" height="1080" />
     </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.center/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442453" />
     <state width="1238" height="303" key="GridCell.Tab.0.center/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1597043837900" />
     <state width="1238" height="303" key="GridCell.Tab.0.center/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699457" />
-    <state width="1238" height="239" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597768992988" />
+    <state width="1238" height="239" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1599400691237" />
+    <state width="1878" height="420" key="GridCell.Tab.0.center/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671817" />
     <state width="1238" height="297" key="GridCell.Tab.0.center/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684734" />
     <state width="1222" height="243" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597697878162" />
-    <state width="1238" height="239" key="GridCell.Tab.0.left" timestamp="1597768992987">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1878" height="420" key="GridCell.Tab.0.left" timestamp="1599470442451">
+      <screen x="-1920" y="33" width="1920" height="1080" />
     </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.left/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442451" />
     <state width="1238" height="303" key="GridCell.Tab.0.left/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1597043837898" />
     <state width="1238" height="303" key="GridCell.Tab.0.left/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699452" />
-    <state width="1238" height="239" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597768992987" />
+    <state width="1238" height="239" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1599400691085" />
+    <state width="1878" height="420" key="GridCell.Tab.0.left/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671816" />
     <state width="1238" height="297" key="GridCell.Tab.0.left/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684733" />
     <state width="1222" height="243" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597697878162" />
-    <state width="1238" height="239" key="GridCell.Tab.0.right" timestamp="1597768992991">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1878" height="420" key="GridCell.Tab.0.right" timestamp="1599470442453">
+      <screen x="-1920" y="33" width="1920" height="1080" />
     </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.right/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442453" />
     <state width="1238" height="303" key="GridCell.Tab.0.right/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1597043837901" />
     <state width="1238" height="303" key="GridCell.Tab.0.right/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699458" />
-    <state width="1238" height="239" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597768992991" />
+    <state width="1238" height="239" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1599400691238" />
+    <state width="1878" height="420" key="GridCell.Tab.0.right/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671818" />
     <state width="1238" height="297" key="GridCell.Tab.0.right/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684735" />
     <state width="1222" height="243" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597697878163" />
     <state x="141" y="40" key="SettingsEditor" timestamp="1595437122931">

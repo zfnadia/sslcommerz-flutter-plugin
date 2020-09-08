@@ -56,7 +56,7 @@ class SSLCTransactionInfoModel {
   @JsonKey(name: 'risk_level')
   String riskLevel;
   @JsonKey(name: 'APIConnect')
-  String aPIConnect;
+  String apiConnect;
   @JsonKey(name: 'validated_on')
   String validatedOn;
   @JsonKey(name: 'gw_version')
@@ -257,11 +257,11 @@ class SSLCTransactionInfoModel {
   }
 
   String getAPIConnect() {
-    return this.aPIConnect;
+    return this.apiConnect;
   }
 
   void setAPIConnect(String aPIConnect) {
-    this.aPIConnect = aPIConnect;
+    this.apiConnect = aPIConnect;
   }
 
   String getValidatedOn() {

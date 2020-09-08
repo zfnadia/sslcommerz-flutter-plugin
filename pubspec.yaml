@@ -13,8 +13,6 @@ dependencies:
     sdk: flutter
   json_annotation:
   eventify:
-  fluttertoast:
-  flutter_json_widget:
 
 dev_dependencies:
   flutter_test:

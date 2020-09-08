@@ -30,7 +30,7 @@ public class SslcommerzFlutterPlugin implements FlutterPlugin, MethodCallHandler
     private MethodChannel channel;
     private Activity activity;
     private Result pendingResult;
-    protected static final int TRANSACTION__CODE = 2324;
+    protected static final int TRANSACTION_CODE = 2324;
     protected static final int TRANSACTION_SUCCESS_CODE = 0;
     protected static final int TRANSACTION_FAIL_CODE = 1;
     protected static final int MERCHANT_VALIDATION_ERROR_CODE = 2;
@@ -57,7 +57,7 @@ public class SslcommerzFlutterPlugin implements FlutterPlugin, MethodCallHandler
 
             Intent intent = new Intent(activity, SSLCommerzActivity.class);
             intent.putExtra("valueMap", valueMap);
-            activity.startActivityForResult(intent, TRANSACTION__CODE);
+            activity.startActivityForResult(intent, TRANSACTION_CODE);
         } else {
             result.notImplemented();
         }
@@ -91,7 +91,7 @@ public class SslcommerzFlutterPlugin implements FlutterPlugin, MethodCallHandler
 
     @Override
     public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == TRANSACTION__CODE) {
+        if (requestCode == TRANSACTION_CODE) {
             Map<String, Object> reply = new HashMap<>();
             reply.put("type", data.getIntExtra("type", -1));
             reply.put("data", data.getStringExtra("data"));
