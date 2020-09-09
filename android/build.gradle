@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 18
@@ -31,11 +31,12 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation fileTree(include: '*.aar', dir: 'libs')
+        implementation project(":sslCommerzSdk")
     }
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation project(":sslCommerzSdk")
 }
