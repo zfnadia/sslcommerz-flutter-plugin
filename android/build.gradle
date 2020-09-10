@@ -30,9 +30,6 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-    dependencies {
-        implementation project(":sslCommerzSdk")
-    }
 }
 
 dependencies {
