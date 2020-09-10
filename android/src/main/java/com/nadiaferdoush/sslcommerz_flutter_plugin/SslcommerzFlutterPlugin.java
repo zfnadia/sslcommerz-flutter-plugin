@@ -30,11 +30,11 @@ public class SslcommerzFlutterPlugin implements FlutterPlugin, MethodCallHandler
     private MethodChannel channel;
     private Activity activity;
     private Result pendingResult;
-    protected static final int TRANSACTION_CODE = 2324;
-    protected static final int TRANSACTION_SUCCESS_CODE = 0;
-    protected static final int TRANSACTION_FAIL_CODE = 1;
-    protected static final int MERCHANT_VALIDATION_ERROR_CODE = 2;
-    protected static final int TRANSACTION_CANCELED_CODE = 3;
+    static final int TRANSACTION_CODE = 2324;
+    static final int TRANSACTION_SUCCESS_CODE = 0;
+    static final int TRANSACTION_FAIL_CODE = 1;
+    static final int MERCHANT_VALIDATION_ERROR_CODE = 2;
+    static final int TRANSACTION_CANCELED_CODE = 3;
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {

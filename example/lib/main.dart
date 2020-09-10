@@ -129,8 +129,8 @@ class _MyAppState extends State<MyApp> {
     try {
       _sslcommerzFlutterPlugin.integrateSSLCommerz(
           SSLCommerzInitialization(
-              "yourStoreID",
-              "yourPassword",
+              "bdjob5f0ad29f35834",
+              "bdjob5f0ad29f35834@ssl",
               amount,
               SSLCCurrencyType.BDT,
               "transactionID",
@@ -152,7 +152,7 @@ class _MyAppState extends State<MyApp> {
               customerAddress2: "N/A",
               customerFax: "90102",
               customerState: "LA"),
-          emiTransactionInitializer: EMITransactionInitializer(1),
+          emiTransactionInitializer: EMITransactionInitializer(0),
           shipmentInfoInitializer: ShipmentInfoInitializer("Courier", 2,
               ShipmentDetails("AA", "Address 1", "Dhaka", "1000", "BD"),
               shipAddress2: "shipAddress2", shipState: "shipState"),

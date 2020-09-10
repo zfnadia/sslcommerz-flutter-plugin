@@ -53,7 +53,6 @@ class SslcommerzFlutterPlugin {
         'shipmentInfoInitializer': jsonEncode(shipmentInfoInitializer),
         'additionalInitializer': jsonEncode(additionalInitializer)
       });
-      print("integrateSSLCommerz response");
       _handleResult(response);
     } on PlatformException catch (e) {
       print('SSLCommerz integration failed due to: ${e.message}');

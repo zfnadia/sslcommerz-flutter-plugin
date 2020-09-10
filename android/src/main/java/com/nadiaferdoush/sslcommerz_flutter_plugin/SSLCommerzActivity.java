@@ -24,8 +24,6 @@ import com.sslwireless.sslcommerzlibrary.viewmodel.listener.SSLCTransactionRespo
 
 import java.util.HashMap;
 
-import io.flutter.Log;
-
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.MERCHANT_VALIDATION_ERROR_CODE;
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION_CANCELED_CODE;
 import static com.nadiaferdoush.sslcommerz_flutter_plugin.SslcommerzFlutterPlugin.TRANSACTION_FAIL_CODE;
