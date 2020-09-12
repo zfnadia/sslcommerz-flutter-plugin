@@ -44,6 +44,13 @@ class SslcommerzFlutterPlugin {
       ShipmentInfoInitializer shipmentInfoInitializer,
       AdditionalInitializer additionalInitializer}) async {
     try {
+      print("inside integrateSSLCommerz");
+      print("sslCommerzInitialization ${jsonEncode(sslCommerzInitialization)}");
+      print("customerInfoInitializer ${jsonEncode(customerInfoInitializer)}");
+      print("emiTransactionInitializer ${jsonEncode(emiTransactionInitializer)}");
+      print("productInitializer ${jsonEncode(productInitializer)}");
+      print("shipmentInfoInitializer ${jsonEncode(shipmentInfoInitializer)}");
+      print("additionalInitializer ${jsonEncode(additionalInitializer)}");
       var response =
           await _channel.invokeMethod("openSSLCommerz", <String, Object>{
         'sslCommerzInitialization': jsonEncode(sslCommerzInitialization),

@@ -153,7 +153,7 @@ class _MyAppState extends State<MyApp> {
               customerFax: "90102",
               customerState: "LA"),
           emiTransactionInitializer: EMITransactionInitializer(0),
-          shipmentInfoInitializer: ShipmentInfoInitializer("Courier", 2,
+          shipmentInfoInitializer: ShipmentInfoInitializer("yes", 2,
               ShipmentDetails("AA", "Address 1", "Dhaka", "1000", "BD"),
               shipAddress2: "shipAddress2", shipState: "shipState"),
           additionalInitializer:

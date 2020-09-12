@@ -6,12 +6,16 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bf8b68-a1bf-4ffb-b68d-b82166e97c81" name="Default Changelist" comment="">
+    <list default="true" id="33bf8b68-a1bf-4ffb-b68d-b82166e97c81" name="Default Changelist" comment="Fix transaction code issue">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/sslcommerz_flutter_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sslcommerz_flutter_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sslcommerz_flutter_plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sslcommerz_flutter_plugin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -42,7 +47,7 @@
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -89,13 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599717222896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix transaction code issue">
+      <created>1599722226699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599722226699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update gradle dependencies" />
     <MESSAGE value="Fix gradle bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix gradle bug" />
+    <MESSAGE value="Fix transaction code issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix transaction code issue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Notifications" timestamp="1599721314405">
@@ -115,22 +128,23 @@
     </state>
     <state x="488" y="282" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.800@0.0.1280.800" timestamp="1599722015908" />
     <state x="488" y="297" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1595438802230" />
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599121584281">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="378" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599904669261">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1599121584281" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1596989004800" />
-    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2" timestamp="1599717222530">
+    <state x="378" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1599904669261" />
+    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2" timestamp="1599905750220">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="163" y="2" key="CommitChangelistDialog2/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1599121237898" />
     <state x="163" y="23" width="971" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1599591710241" />
-    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1599717222530" />
-    <state x="64" y="90" key="DiffContextDialog" timestamp="1599685274427">
+    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1599905750220" />
+    <state x="64" y="90" key="DiffContextDialog" timestamp="1599905747752">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="64" y="90" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1599685274426" />
-    <state width="1238" height="427" key="GridCell.Tab.0.bottom" timestamp="1599722064965">
+    <state x="64" y="90" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1599905747752" />
+    <state width="1218" height="583" key="GridCell.Tab.0.bottom" timestamp="1599906832528">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442454" />
@@ -138,9 +152,9 @@
     <state width="1238" height="303" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699458" />
     <state width="1238" height="427" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1599721513791" />
     <state width="1878" height="420" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671820" />
-    <state width="1238" height="297" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684736" />
-    <state width="1238" height="427" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1599722064965" />
-    <state width="1238" height="427" key="GridCell.Tab.0.center" timestamp="1599722064964">
+    <state width="1218" height="491" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972594" />
+    <state width="1218" height="583" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1599906832528" />
+    <state width="1218" height="583" key="GridCell.Tab.0.center" timestamp="1599906832527">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.center/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442453" />
@@ -148,9 +162,9 @@
     <state width="1238" height="303" key="GridCell.Tab.0.center/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699457" />
     <state width="1238" height="427" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1599721513790" />
     <state width="1878" height="420" key="GridCell.Tab.0.center/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671817" />
-    <state width="1238" height="297" key="GridCell.Tab.0.center/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684734" />
-    <state width="1238" height="427" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1599722064964" />
-    <state width="1238" height="427" key="GridCell.Tab.0.left" timestamp="1599722064964">
+    <state width="1218" height="491" key="GridCell.Tab.0.center/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972593" />
+    <state width="1218" height="583" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1599906832527" />
+    <state width="1218" height="583" key="GridCell.Tab.0.left" timestamp="1599906832527">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.left/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442451" />
@@ -158,9 +172,9 @@
     <state width="1238" height="303" key="GridCell.Tab.0.left/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699452" />
     <state width="1238" height="427" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1599721513790" />
     <state width="1878" height="420" key="GridCell.Tab.0.left/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671816" />
-    <state width="1238" height="297" key="GridCell.Tab.0.left/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684733" />
-    <state width="1238" height="427" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1599722064964" />
-    <state width="1238" height="427" key="GridCell.Tab.0.right" timestamp="1599722064965">
+    <state width="1218" height="491" key="GridCell.Tab.0.left/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972591" />
+    <state width="1218" height="583" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1599906832527" />
+    <state width="1218" height="583" key="GridCell.Tab.0.right" timestamp="1599906832528">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.right/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442453" />
@@ -168,17 +182,17 @@
     <state width="1238" height="303" key="GridCell.Tab.0.right/0.0.1280.800/-1920.56.1920.1057@0.0.1280.800" timestamp="1597001699458" />
     <state width="1238" height="427" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1599721513791" />
     <state width="1878" height="420" key="GridCell.Tab.0.right/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671818" />
-    <state width="1238" height="297" key="GridCell.Tab.0.right/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596967684735" />
-    <state width="1238" height="427" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1599722064965" />
-    <state x="141" y="18" key="SettingsEditor" timestamp="1599721307214">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="141" y="18" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1599721307214" />
-    <state x="141" y="40" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1595437122931" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1599717351559">
+    <state width="1218" height="491" key="GridCell.Tab.0.right/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972593" />
+    <state width="1218" height="583" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1599906832528" />
+    <state x="141" y="40" key="SettingsEditor" timestamp="1599900137136">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1599717351559" />
+    <state x="141" y="18" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1599721307214" />
+    <state x="141" y="40" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1599900137136" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1599722230535">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1599722230535" />
     <state x="100" y="61" width="1080" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597769552934">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

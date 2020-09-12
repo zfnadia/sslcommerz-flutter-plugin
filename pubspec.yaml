@@ -20,6 +20,9 @@ dev_dependencies:
   build_runner:
   json_serializable:
 
+dependency_overrides:
+  analyzer: '0.39.14'
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
