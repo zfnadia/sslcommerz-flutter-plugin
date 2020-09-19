@@ -8,12 +8,11 @@ part of 'additional_initializer.dart';
 
 AdditionalInitializer _$AdditionalInitializerFromJson(
     Map<String, dynamic> json) {
-  return AdditionalInitializer(
-    valueA: json['valueA'] as String,
-    valueB: json['valueB'] as String,
-    valueC: json['valueC'] as String,
-    valueD: json['valueD'] as String,
-  );
+  return AdditionalInitializer()
+    ..valueA = json['valueA'] as String
+    ..valueB = json['valueB'] as String
+    ..valueC = json['valueC'] as String
+    ..valueD = json['valueD'] as String;
 }
 
 Map<String, dynamic> _$AdditionalInitializerToJson(

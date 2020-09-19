@@ -1,5 +1,5 @@
 /// Created by Nadia Ferdoush on 18/09/2020.
-/// Copyright (c) 2020. All rights reserved.
+/// Copyright (c) Nadia Ferdoush 2020. All rights reserved.
 
 import 'dart:convert';
 
@@ -126,38 +126,54 @@ class _MyAppState extends State<MyApp> {
   }
 
   void initSSLCommerz(double amount) async {
+    // SSLCommerzInitialization (Mandatory to initiate SSLCommerz)
+    final SSLCommerzInitialization sslCommerzInitialization =
+        SSLCommerzInitialization(
+                "bdjob5f0ad29f35834",
+                "bdjob5f0ad29f35834@ssl",
+                amount,
+                SSLCCurrencyType.BDT,
+                "123456789098765",
+                "yourProductType",
+                SSLCSdkType.TESTBOX)
+            .addMultiCardName("")
+            .addIpnUrl("");
+
+    // Optional Initializer
+    // CustomerInfoInitializer
+    final CustomerInfoInitializer customerInfoInitializer =
+        CustomerInfoInitializer("customer name", "customer email", "address",
+            "dhaka", "1214", "Bangladesh", "phoneNumber");
+
+    // EMITransactionInitializer
+    // EMI option must be enabled in the SSLCommerz web panel for using EMI
+    final EMITransactionInitializer emiTransactionInitializer =
+        EMITransactionInitializer(0);
+
+    // ProductInitializer
+    final ProductInitializer productInitializer =
+        ProductInitializer.travelVertical("food", "food",
+            TravelVertical("Travel", "ABC", "2", "12", "Dhaka"));
+
+    // ShipmentInfoInitializer
+    final ShipmentInfoInitializer shipmentInfoInitializer =
+        ShipmentInfoInitializer("Courier", 2,
+            ShipmentDetails("Ship name", "Address 1", "Dhaka", "1000", "BD"));
+
+    // AdditionalInitializer
+    final AdditionalInitializer additionalInitializer = AdditionalInitializer();
+    additionalInitializer.setValueA("Value Option 1");
+    additionalInitializer.setValueB("Value Option 2");
+    additionalInitializer.setValueC("Value Option 3");
+    additionalInitializer.setValueD("Value Option 4");
+
     try {
-      _sslcommerzFlutterPlugin.integrateSSLCommerz(
-          SSLCommerzInitialization(
-              "bdjob5f0ad29f35834",
-              "bdjob5f0ad29f35834@ssl",
-              amount,
-              SSLCCurrencyType.BDT,
-              "transactionID",
-              "yourProductType",
-              SSLCSdkType.TESTBOX),
-          productInitializer: ProductInitializer.travelVertical(
-            "food",
-            'food',
-            TravelVertical("Travel", "10", "A", "12", "Dhk-Syl"),
-          ),
-          customerInfoInitializer: CustomerInfoInitializer(
-              "Lucifer Morningstar",
-              "lucy@g.com",
-              "LAPD",
-              "Los Angeles",
-              "90001",
-              "USA",
-              "0000",
-              customerAddress2: "N/A",
-              customerFax: "90102",
-              customerState: "LA"),
-          emiTransactionInitializer: EMITransactionInitializer(0),
-          shipmentInfoInitializer: ShipmentInfoInitializer("yes", 2,
-              ShipmentDetails("AA", "Address 1", "Dhaka", "1000", "BD"),
-              shipAddress2: "shipAddress2", shipState: "shipState"),
-          additionalInitializer:
-              AdditionalInitializer(valueA: "1", valueB: "2"));
+      _sslcommerzFlutterPlugin.integrateSSLCommerz(sslCommerzInitialization,
+          productInitializer: productInitializer,
+          customerInfoInitializer: customerInfoInitializer,
+          emiTransactionInitializer: emiTransactionInitializer,
+          shipmentInfoInitializer: shipmentInfoInitializer,
+          additionalInitializer: additionalInitializer);
     } catch (e) {
       debugPrint(e);
     }

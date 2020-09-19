@@ -15,9 +15,9 @@ ShipmentInfoInitializer _$ShipmentInfoInitializerFromJson(
         ? null
         : ShipmentDetails.fromJson(
             json['shipmentDetails'] as Map<String, dynamic>),
-    shipAddress2: json['shipAddress2'] as String,
-    shipState: json['shipState'] as String,
-  );
+  )
+    ..shipAddress2 = json['shipAddress2'] as String
+    ..shipState = json['shipState'] as String;
 }
 
 Map<String, dynamic> _$ShipmentInfoInitializerToJson(

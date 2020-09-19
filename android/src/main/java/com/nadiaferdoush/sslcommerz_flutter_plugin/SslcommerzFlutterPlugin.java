@@ -1,6 +1,6 @@
 /*
  * Created by Nadia Ferdoush on 18/09/2020.
- * Copyright (c) 2020. All rights reserved.
+ * Copyright (c) Nadia Ferdoush 2020. All rights reserved.
  */
 
 package com.nadiaferdoush.sslcommerz_flutter_plugin;

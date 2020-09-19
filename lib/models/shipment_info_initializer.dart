@@ -14,12 +14,9 @@ class ShipmentInfoInitializer {
   ShipmentDetails shipmentDetails;
 
   ShipmentInfoInitializer(
-      String shipmentMethod, int numOfItems, ShipmentDetails shipmentDetails,
-      {String shipAddress2, String shipState}) {
+      String shipmentMethod, int numOfItems, ShipmentDetails shipmentDetails) {
     this.shipmentMethod = shipmentMethod;
     this.numOfItems = numOfItems;
-    this.shipAddress2 = shipAddress2;
-    this.shipState = shipState;
     this.shipmentDetails = shipmentDetails;
   }
 

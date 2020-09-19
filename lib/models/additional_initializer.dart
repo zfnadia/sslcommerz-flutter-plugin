@@ -1,5 +1,5 @@
 /// Created by Nadia Ferdoush on 18/09/2020.
-/// Copyright (c) 2020. All rights reserved.
+/// Copyright (c) Nadia Ferdoush 2020. All rights reserved.
 
 import 'package:json_annotation/json_annotation.dart';
 
@@ -12,11 +12,37 @@ class AdditionalInitializer {
   String valueC;
   String valueD;
 
-  AdditionalInitializer(
-      {String valueA, String valueB, String valueC, String valueD}) {
+  AdditionalInitializer();
+
+  String getValueA() {
+    return this.valueA;
+  }
+
+  void setValueA(String valueA) {
     this.valueA = valueA;
+  }
+
+  String getValueB() {
+    return this.valueB;
+  }
+
+  void setValueB(String valueB) {
     this.valueB = valueB;
+  }
+
+  String getValueC() {
+    return this.valueC;
+  }
+
+  void setValueC(String valueC) {
     this.valueC = valueC;
+  }
+
+  String getValueD() {
+    return this.valueD;
+  }
+
+  void setValueD(String valueD) {
     this.valueD = valueD;
   }
 

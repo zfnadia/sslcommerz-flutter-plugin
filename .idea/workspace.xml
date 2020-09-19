@@ -6,16 +6,23 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bf8b68-a1bf-4ffb-b68d-b82166e97c81" name="Default Changelist" comment="Fix transaction code issue">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="33bf8b68-a1bf-4ffb-b68d-b82166e97c81" name="Default Changelist" comment="Update model classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SSLCommerzActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/nadiaferdoush/sslcommerz_flutter_plugin/SslcommerzFlutterPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/additional_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/additional_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/additional_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/additional_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/customer_info_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/customer_info_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/customer_info_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/customer_info_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/emi_transaction_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/product_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/product_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/shipment_info_initializer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/shipment_info_initializer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/shipment_info_initializer.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/shipment_info_initializer.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/sslc_initialization.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/sslc_initialization.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/sslc_transaction_info_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/sslc_transaction_info_model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/sslcommerz_flutter_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sslcommerz_flutter_plugin.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sslcommerz_flutter_plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sslcommerz_flutter_plugin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1599722226699</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add logs for test">
+      <created>1599906954480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599906954481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update gradle dependencies" />
     <MESSAGE value="Fix gradle bug" />
     <MESSAGE value="Fix transaction code issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix transaction code issue" />
+    <MESSAGE value="Add logs for test" />
+    <MESSAGE value="Update model classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update model classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Notifications" timestamp="1599721314405">
@@ -128,23 +144,23 @@
     </state>
     <state x="488" y="282" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.800@0.0.1280.800" timestamp="1599722015908" />
     <state x="488" y="297" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1595438802230" />
-    <state x="378" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599904669261">
+    <state x="378" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600541386902">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1599121584281" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1596989004800" />
-    <state x="378" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1599904669261" />
-    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2" timestamp="1599905750220">
+    <state x="378" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1600541386902" />
+    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2" timestamp="1600544886613">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="163" y="2" key="CommitChangelistDialog2/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1599121237898" />
     <state x="163" y="23" width="971" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1599591710241" />
-    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1599905750220" />
+    <state x="163" y="23" width="1000" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1600544886613" />
     <state x="64" y="90" key="DiffContextDialog" timestamp="1599905747752">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="64" y="90" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1599905747752" />
-    <state width="1218" height="583" key="GridCell.Tab.0.bottom" timestamp="1599906832528">
+    <state width="1218" height="443" key="GridCell.Tab.0.bottom" timestamp="1600544429858">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442454" />
@@ -153,8 +169,8 @@
     <state width="1238" height="427" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1599721513791" />
     <state width="1878" height="420" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671820" />
     <state width="1218" height="491" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972594" />
-    <state width="1218" height="583" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1599906832528" />
-    <state width="1218" height="583" key="GridCell.Tab.0.center" timestamp="1599906832527">
+    <state width="1218" height="443" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600544429858" />
+    <state width="1218" height="443" key="GridCell.Tab.0.center" timestamp="1600544429857">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.center/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442453" />
@@ -163,8 +179,8 @@
     <state width="1238" height="427" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1599721513790" />
     <state width="1878" height="420" key="GridCell.Tab.0.center/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671817" />
     <state width="1218" height="491" key="GridCell.Tab.0.center/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972593" />
-    <state width="1218" height="583" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1599906832527" />
-    <state width="1218" height="583" key="GridCell.Tab.0.left" timestamp="1599906832527">
+    <state width="1218" height="443" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600544429857" />
+    <state width="1218" height="443" key="GridCell.Tab.0.left" timestamp="1600544429855">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.left/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442451" />
@@ -173,8 +189,8 @@
     <state width="1238" height="427" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1599721513790" />
     <state width="1878" height="420" key="GridCell.Tab.0.left/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671816" />
     <state width="1218" height="491" key="GridCell.Tab.0.left/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972591" />
-    <state width="1218" height="583" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1599906832527" />
-    <state width="1218" height="583" key="GridCell.Tab.0.right" timestamp="1599906832528">
+    <state width="1218" height="443" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600544429855" />
+    <state width="1218" height="443" key="GridCell.Tab.0.right" timestamp="1600544429857">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1878" height="420" key="GridCell.Tab.0.right/0.0.1280.800/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599470442453" />
@@ -183,21 +199,32 @@
     <state width="1238" height="427" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1599721513791" />
     <state width="1878" height="420" key="GridCell.Tab.0.right/0.23.1280.777/-1920.33.1920.1080@-1920.33.1920.1080" timestamp="1599467671818" />
     <state width="1218" height="491" key="GridCell.Tab.0.right/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1599753972593" />
-    <state width="1218" height="583" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1599906832528" />
+    <state width="1218" height="443" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600544429857" />
     <state x="141" y="40" key="SettingsEditor" timestamp="1599900137136">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="141" y="18" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1599721307214" />
     <state x="141" y="40" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1599900137136" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1599722230535">
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1599906958518">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1599722230535" />
-    <state x="100" y="61" width="1080" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597769552934">
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1599906958518" />
+    <state x="100" y="61" width="1080" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600538469506">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="100" y="103" width="1080" height="595" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800/-1920.33.1920.1080@0.0.1280.800" timestamp="1596991273862" />
     <state x="100" y="123" width="1080" height="577" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.777/-1920.56.1920.1057@0.23.1280.777" timestamp="1596958326912" />
-    <state x="100" y="61" width="1080" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.777@0.23.1280.777" timestamp="1597769552934" />
+    <state x="100" y="61" width="1080" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.777@0.23.1280.777" timestamp="1600538469506" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

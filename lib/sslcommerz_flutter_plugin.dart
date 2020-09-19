@@ -1,5 +1,5 @@
 /// Created by Nadia Ferdoush on 18/09/2020.
-/// Copyright (c) 2020. All rights reserved.
+/// Copyright (c) Nadia Ferdoush 2020. All rights reserved.
 
 import 'dart:convert';
 
@@ -44,13 +44,6 @@ class SslcommerzFlutterPlugin {
       ShipmentInfoInitializer shipmentInfoInitializer,
       AdditionalInitializer additionalInitializer}) async {
     try {
-      print("inside integrateSSLCommerz");
-      print("sslCommerzInitialization ${jsonEncode(sslCommerzInitialization)}");
-      print("customerInfoInitializer ${jsonEncode(customerInfoInitializer)}");
-      print("emiTransactionInitializer ${jsonEncode(emiTransactionInitializer)}");
-      print("productInitializer ${jsonEncode(productInitializer)}");
-      print("shipmentInfoInitializer ${jsonEncode(shipmentInfoInitializer)}");
-      print("additionalInitializer ${jsonEncode(additionalInitializer)}");
       var response =
           await _channel.invokeMethod("openSSLCommerz", <String, Object>{
         'sslCommerzInitialization': jsonEncode(sslCommerzInitialization),
